@@ -1,0 +1,39 @@
+{
+	"author": "DVMM",
+	"description": "Typescript - Webpack - NPM Boilerplate",
+	"keywords": [
+		"Typescript",
+		"NPM",
+		"Template",
+		"Boilerplate",
+		"webpack"
+	],
+	"license": "MIT",
+	"main": "dist/package.js",
+	"types": "dist/package.d.ts",
+	"name": "package",
+	"scripts": {
+		"test": "jest --coverage",
+		"clean": "rm -rf dist lib",
+		"build": "npm run clean && webpack"
+	},
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dvmmdev/TS-NPM-Boilerplate.git"
+	},
+	"devDependencies": {
+		"@dvmm/bundle-ts-dec-webpack-plugin": "0.0.2",
+		"@types/node": "^13.11.1",
+		"jest": "^25.1.0",
+		"ts-loader": "^6.2.2",
+		"typescript": "^3.8.3",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11"
+	},
+	"bugs": {
+		"url": "https://github.com/dvmmdev/TS-NPM-Boilerplate/issues"
+	},
+	"homepage": "https://github.com/dvmmdev/TS-NPM-Boilerplate#readme",
+	"dependencies": {}
+}
